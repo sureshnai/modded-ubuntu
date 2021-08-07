@@ -100,17 +100,10 @@ refs() {
     sudo apt update -y
     sudo apt install code -y
 
-    git clone --depth=1 https://github.com/vinceliuice/Layan-gtk-theme.git $HOME/Layan-gtk-theme
-    sudo chmod +x $HOME/Layan-gtk-theme/install.sh
-    sudo bash $HOME/Layan-gtk-theme/install.sh
 
     git clone --depth=1 https://github.com/vinceliuice/Qogir-icon-theme.git $HOME/Qogir-icon-theme
     sudo chmod +x $HOME/Qogir-icon-theme/install.sh
     sudo bash $HOME/Qogir-icon-theme/install.sh
-
-    git clone --depth=1 https://github.com/s-h-3-l-l/katoolin3.git $HOME/katoolin3
-    sudo chmod +x $HOME/katoolin3/install.sh
-    cd $HOME/katoolin3 && sudo bash install.sh
 
     sudo apt update -y
     sudo apt autoremove -y
